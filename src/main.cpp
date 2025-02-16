@@ -36,8 +36,8 @@ const char *VARIABLE_LABEL1 = "Temperatura";                       // Put here y
 const char *VARIABLE_LABEL2 = "Humedad";                           // Put here your Variable label to which data  will be published
 const char *VARIABLE_LABEL3 = "sw1";                               // Variable a subscribir
 const char *VARIABLE_LABEL4 = "sw2";                               // Variable a subscribir
-const char *CUSTOM_TOPIC = "/v2.0/devices/demo/+"; // This will subscribe to all the messages received by the Device labeled as "demo"
-const int PUBLISH_FREQUENCY = 5000; // Update rate in milliseconds
+const char *CUSTOM_TOPIC = "/v2.0/devices/demo/+";                 // This will subscribe to all the messages received by the Device labeled as "demo"
+const int PUBLISH_FREQUENCY = 5000;                                // Update rate in milliseconds
 
 unsigned long timer;
 
